@@ -2,7 +2,6 @@ import os
 
 from setuptools import setup, find_packages
 
-
 README_PATH = os.path.join(os.path.abspath(os.path.dirname(__file__)),
                            'README.md')
 with open(README_PATH) as readme_file:
@@ -18,7 +17,7 @@ setup(
     description="Quantum Performance Metrics",
     long_description=README,
     long_description_content_type='text/markdown',
-    # url="https://github.com/Qiskit/qiskit",
+    url="https://github.com/rsathyak/qml_masters_thesis/tree/main/experiments/qmetrics",
     author="Rajesh",
     author_email="rsathyak@asu.edu",
     license="Apache 2.0",
@@ -38,11 +37,11 @@ setup(
     ],
     keywords="quantum performance volume",
     install_requires=requirements,
-    # project_urls={
-    #     "Bug Tracker": "https://github.com/Qiskit/qiskit/issues",
-    #     "Documentation": "https://qiskit.org/documentation/",
-    #     "Source Code": "https://github.com/Qiskit/qiskit",
-    # },
+    project_urls={
+        "Bug Tracker": "https://github.com/rsathyak/qml_masters_thesis/issues",
+        "Documentation": "https://github.com/rsathyak/qml_masters_thesis/blob/main/experiments/qmetrics/README.md",
+        "Source Code": "https://github.com/rsathyak/qml_masters_thesis/tree/main/experiments/qmetrics",
+    },
     include_package_data=True,
     python_requires=">=3.7",
     packages=find_packages(),

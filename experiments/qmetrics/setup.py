@@ -13,7 +13,7 @@ requirements = [
 
 setup(
     name="qmetrics",
-    version="0.0.4",
+    version="0.0.5",
     description="Quantum Performance Metrics",
     long_description=README,
     long_description_content_type='text/markdown',
@@ -39,7 +39,7 @@ setup(
     install_requires=requirements,
     project_urls={
         "Bug Tracker": "https://github.com/rsathyak/qml_masters_thesis/issues",
-        "Documentation": "https://github.com/rsathyak/qml_masters_thesis/blob/main/experiments/qmetrics/README.md",
+        "Documentation": "https://github.com/rsathyak/qml_masters_thesis/tree/main/slides",
         "Source Code": "https://github.com/rsathyak/qml_masters_thesis/tree/main/experiments/qmetrics",
     },
     include_package_data=True,
